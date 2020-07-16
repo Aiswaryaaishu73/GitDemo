@@ -1,0 +1,12 @@
+import java.awt.Desktop;
+import java.net.URI;
+public class Agasthya {
+
+	public static void main(String[] args) throws Exception {
+		// TODO Auto-generated method stub
+		Desktop d=Desktop.getDesktop();
+		d.browse(new URI("htttp://google.com"));
+	
+	}
+
+}
